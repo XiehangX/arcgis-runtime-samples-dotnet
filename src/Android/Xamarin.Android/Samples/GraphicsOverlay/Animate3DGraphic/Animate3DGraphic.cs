@@ -280,9 +280,9 @@ namespace ArcGISRuntime.Samples.Animate3DGraphic
 
                 // Update stats display
                 _altitudeTextView.Text = $"{currentFrame.Elevation:F}m";
-                _headingTextView.Text = $"{currentFrame.Heading:F}°";
-                _pitchTextView.Text = $"{currentFrame.Pitch:F}°";
-                _rollTextView.Text = $"{currentFrame.Roll:F}°";
+                _headingTextView.Text = $"{currentFrame.Heading:F}\u00B0";
+                _pitchTextView.Text = $"{currentFrame.Pitch:F}\u00B0";
+                _rollTextView.Text = $"{currentFrame.Roll:F}\u00B0";
             });
 
             // Update plane's position

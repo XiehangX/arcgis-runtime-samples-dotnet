@@ -260,9 +260,9 @@ namespace ArcGISRuntime.WPF.Samples.Animate3DGraphic
 
                 // Update stats display
                 AltitudeLabel.Text = currentFrame.Elevation.ToString("F") + "m";
-                HeadingLabel.Text = currentFrame.Heading.ToString("F") + "°";
-                PitchLabel.Text = currentFrame.Pitch.ToString("F") + "°";
-                RollLabel.Text = currentFrame.Roll.ToString("F") + "°";
+                HeadingLabel.Text = currentFrame.Heading.ToString("F") + "\u00B0";
+                PitchLabel.Text = currentFrame.Pitch.ToString("F") + "\u00B0";
+                RollLabel.Text = currentFrame.Roll.ToString("F") + "\u00B0";
             }));
 
             // Update plane's position
